@@ -17,6 +17,9 @@ body {
   margin-top: 10px;
   font-size: 18px;
 }
+.enter:hover /*カーソルを重ねると色が変わる*/{
+  color: #EA96A0
+}
 
 .header {
   background-color: #819FF7;
