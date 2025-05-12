@@ -4,48 +4,43 @@ body {
   }
 
 .enterInner {
-  width: auto;
-  height: auto;
-  margin: 25px;
+  display: flex; /*直下の要素が並列になる*/
+  flex-direction:column; /*上から下に配置配置*/
+  justify-content: center; /*水平方向の真ん中にそろえる*/
+  align-items: center; /*垂直方向の真ん中にそろえる*/
+  min-height: 100vh; /*画面いっぱいの高さにする*/
 }
 
 .enter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -25px 0 0 -25px;
   color: #819FF7;
   text-decoration: none;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .header {
   background-color: #819FF7;
-  max-width: 100%;
-  height: 40px;
-  margin: auto;
-  padding: 1em;
+  width: 100%;
+  padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .headerMenu {
-  width: 250px;
-  height: 50px;
-  margin: auto;
   text-align: center;
-  position: relative;
-  right: 20px;
 }
 
 .menu ul {
   color: #F0F8FF;
-  text-align: center;
   display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
-.menu ul a {
+.menu a {
   color: #fff;
   text-decoration: none;
 }
@@ -55,14 +50,12 @@ body {
 }
 
 footer {
-  max-width: 100%;
+  width: 100%;
   background: #F2F1FA;
   color: #819FF7;
 }
 
 .footerInner {
-  max-width: 100%;
   text-align: center;
-  margin-top: 50px;
-  padding: 20px;
+  padding: 20px 0;
 }
