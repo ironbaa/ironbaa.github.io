@@ -1,0 +1,19 @@
+
+  /*overflow: hidden;*/
+
+.enterInner {
+  display: flex; /*直下の要素が並列になる*/
+  flex-direction:column; /*上から下に配置配置*/
+  justify-content: center; /*水平方向の真ん中にそろえる*/
+  align-items: center; /*垂直方向の真ん中にそろえる*/
+  min-height: 100vh; /*画面いっぱいの高さにする*/
+}
+
+.textenter {
+  color: #3161ef;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.textenter:hover {
+  color: #EA96A0
+}

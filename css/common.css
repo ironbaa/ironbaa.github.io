@@ -1,0 +1,49 @@
+
+@font-face {
+  font-family: "x12y12pxMaruMinyaM";
+  src: url("../font/x12y12pxMaruMinyaM.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+}
+
+body a{
+    font-family: "x12y12pxMaruMinyaM", monospace;
+    text-decoration: none;
+    color: #3161ef;
+}
+
+body a:hover{
+    color:#EA96A0;
+}
+
+main{
+    min-height: 300vh;
+}
+
+.header {
+  background-color: #819FF7;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerMenu {
+  text-align: center;
+}
+
+
+
+footer {
+  width: 100%;
+  background: #e4e4e4;
+  color: #819FF7;
+}
+
+.footerInner {
+  text-align: center;
+  padding: 20px 0;
+}
