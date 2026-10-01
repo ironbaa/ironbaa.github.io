@@ -1,2 +1,2 @@
-### <span style="color:blue;>ironbaa.github.io</span>
+[https://ironbaa.github.io/](https://ironbaa.github.io/)
 ## >_>
